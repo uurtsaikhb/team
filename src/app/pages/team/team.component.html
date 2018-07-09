@@ -1,0 +1,12 @@
+<section class="team-section">
+  <h2 class="section-title">MEET OUR TEAM</h2>
+  <div class="team">
+    <div class="member" *ngFor="let member of members" (click)="onClick(member)">
+      <img class="avatar" [src]="member.profile.avatar">
+      <div class="detail">
+        <span class="name">{{ member.profile.name }}</span>
+        <span> {{ member.profile.title }} </span>
+      </div>
+    </div>
+  </div>
+</section>
