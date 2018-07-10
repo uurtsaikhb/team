@@ -7,9 +7,10 @@ module.exports = [
       linkedin: 'https:/www.linkedin.com/in/uurtsaikh',
       website: 'www.uurtsaikh.com',
       avatar: '../../../assets/images/members/uurtsaikh.png',
+      image: '../../../assets/images/uurtsaikh.jpg',
       title: 'Software Engineer'
     },
-    work: [
+    careers: [
       {
         company: 'Amazon',
         position: 'Web Developer',
@@ -46,7 +47,7 @@ module.exports = [
       avatar: '../../../assets/images/members/shagai.png',
       title: 'Software Engineer'
     },
-    work: [
+    careers: [
       {
         company: 'Amazon',
         position: 'Web Developer',
@@ -83,7 +84,7 @@ module.exports = [
       avatar: '../../../assets/images/members/luvsansharav.png',
       title: 'Software Engineer'
     },
-    work: [
+    careers: [
       {
         company: 'Amazon',
         position: 'Web Developer',
@@ -120,7 +121,7 @@ module.exports = [
       avatar: '../../../assets/images/members/mandal.png',
       title: 'Software Engineer'
     },
-    work: [
+    careers: [
       {
         company: 'Amazon',
         position: 'Web Developer',

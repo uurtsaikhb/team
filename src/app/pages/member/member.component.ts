@@ -1,5 +1,7 @@
+import { DataService } from './../../services/data.service';
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
+import { log } from 'util';
 
 @Component({
   selector: 'app-member',
@@ -7,11 +9,16 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./member.component.scss']
 })
 export class MemberComponent implements OnInit {
-  constructor(private activatedRoute: ActivatedRoute) {}
+  member = null;
+
+  constructor(private router: Router, private dataService: DataService) {}
 
   ngOnInit() {
-    this.activatedRoute.queryParams.subscribe(data => {
-      console.log(data); // just do it with service.
-    });
+    this.member = this.dataService.getMember();
+    if (!this.member) {
+      this.router.navigate(['/home']);
+    } else {
+      console.log(this.member);
+    }
   }
 }

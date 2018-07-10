@@ -1,1 +1,18 @@
+.member {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  height: 100%;
 
+  .avatar {
+    display: flex;
+    flex: 2;
+    background-image: url('../../../assets/images/uurtsaikh.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .detail {
+    flex: 3;
+  }
+}

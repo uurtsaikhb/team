@@ -16,34 +16,41 @@
   display: flex;
   flex-direction: row;
   min-height: 260px;
+
   .member {
     display: flex;
     flex-direction: column;
     flex: 4;
     justify-content: space-between;
     align-items: center;
+
     .avatar {
       width: 160px;
       height: 160px;
       margin-top: 10px;
       transition: 0.3s ease;
     }
+
     .detail {
       span {
-        display: inline-block;
+        display: block;
         font-weight: 300;
       }
+
       .name {
         font-weight: 400;
         font-size: 20px;
         color: #b8b7b7;
       }
     }
+
     &:hover {
       cursor: pointer;
+
       .avatar {
         transform: scale(1.07);
       }
+
       .name {
         color: red;
       }
