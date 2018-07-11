@@ -18,7 +18,7 @@ export class MemberComponent implements OnInit {
     if (!this.member) {
       this.router.navigate(['/home']);
     } else {
-      console.log(this.member);
+      document.getElementById('avatar').style.backgroundImage = "url('" + this.member.profile.image + "')";
     }
   }
 }

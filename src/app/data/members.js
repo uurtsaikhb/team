@@ -45,6 +45,7 @@ module.exports = [
       linkedin: 'https:/www.linkedin.com/in/uurtsaikh',
       website: 'www.uurtsaikh.com',
       avatar: '../../../assets/images/members/shagai.png',
+      image: '../../../assets/images/shagai.jpg',
       title: 'Software Engineer'
     },
     careers: [
@@ -82,6 +83,7 @@ module.exports = [
       linkedin: 'https:/www.linkedin.com/in/uurtsaikh',
       website: 'www.uurtsaikh.com',
       avatar: '../../../assets/images/members/luvsansharav.png',
+      image: '../../../assets/images/luvsansharav.jpg',
       title: 'Software Engineer'
     },
     careers: [
@@ -119,6 +121,7 @@ module.exports = [
       linkedin: 'https:/www.linkedin.com/in/uurtsaikh',
       website: 'www.uurtsaikh.com',
       avatar: '../../../assets/images/members/mandal.png',
+      image: '../../../assets/images/mandal.jpg',
       title: 'Software Engineer'
     },
     careers: [

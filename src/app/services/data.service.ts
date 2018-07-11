@@ -8,7 +8,7 @@ export class DataService {
   member = null;
 
   constructor() {
-    this.member = members[0];
+    // this.member = members[0];
   }
 
   setMember(member) {
