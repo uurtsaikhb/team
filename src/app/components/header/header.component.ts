@@ -17,5 +17,6 @@ export class HeaderComponent implements OnInit {
 
   onClickTeam() {
     this.router.navigate(['home'], { queryParams: { segment: 'team' } });
+    document.getElementById('team').scrollIntoView({ behavior: 'smooth' });
   }
 }
