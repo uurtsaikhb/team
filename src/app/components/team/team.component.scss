@@ -2,14 +2,15 @@
   text-align: center;
   background-color: #191818;
   color: #999;
-  padding: 100px 10px;
+  padding: 50px 10px 100px 10px;
 }
 
 .section-title {
   font-weight: 300;
-  font-size: 30px;
-  margin-top: 5px;
-  margin-bottom: 40px;
+  font-size: 5vmin;
+  margin-top: 0;
+  margin-bottom: 2em;
+  color: #dddddd;
 }
 
 .team {
@@ -40,7 +41,7 @@
       .name {
         font-weight: 400;
         font-size: 20px;
-        color: #b8b7b7;
+        color: #dddddd;
       }
     }
 
