@@ -14,4 +14,8 @@ export class HeaderComponent implements OnInit {
   onClickHome() {
     this.router.navigate(['home']);
   }
+
+  onClickTeam() {
+    this.router.navigate(['home'], { queryParams: { segment: 'team' } });
+  }
 }

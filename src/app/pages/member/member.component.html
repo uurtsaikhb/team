@@ -1,10 +1,13 @@
 <div class="member">
 
-  <div class="avatar" id="avatar">
+  <div class="avatar"
+       id="avatar">
   </div>
 
-  <div class="detail">
-    <h3 class="name">{{ member.profile.name }}</h3>
+  <div class="detail"
+       id="detail">
+    <h3 class="name">
+      <span class="firstname">{{ member.profile.firstname }}</span> {{ member.profile.lastname }}</h3>
     <div class="experiences">
       <div class="career"
            *ngFor="let career of member.careers">
@@ -15,7 +18,7 @@
       </div>
     </div>
     <div class="contact">
-      <span> {{ member.profile.email }} | {{ member.profile.phone }}</span>
+      <span> {{ member.profile.email }} | {{ member.profile.phone }} | {{ member.profile.linkedin }} | {{ member.profile.website}}</span>
     </div>
   </div>
 

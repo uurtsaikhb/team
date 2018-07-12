@@ -18,7 +18,16 @@ export class MemberComponent implements OnInit {
     if (!this.member) {
       this.router.navigate(['/home']);
     } else {
-      document.getElementById('avatar').style.backgroundImage = "url('" + this.member.profile.image + "')";
+      document.getElementById('avatar').style.backgroundImage =
+        'url(' + this.member.profile.image + ')';
+
+      document.getElementById(
+        'detail'
+      ).style.backgroundColor = this.member.style.backgroundColor;
+
+      document.getElementById(
+        'detail'
+      ).style.color = this.member.style.textColor;
     }
   }
 }

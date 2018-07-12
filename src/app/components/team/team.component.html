@@ -1,4 +1,5 @@
-<section class="team-section">
+<section class="team-section"
+         id="team">
   <h2 class="section-title">MEET OUR TEAM</h2>
   <div class="team">
     <div class="member"
@@ -7,7 +8,7 @@
       <img class="avatar"
            [src]="member.profile.avatar">
       <div class="detail">
-        <span class="name">{{ member.profile.name }}</span>
+        <span class="name">{{ member.profile.firstname }} {{ member.profile.lastname }}</span>
         <span> {{ member.profile.title }} </span>
       </div>
     </div>
