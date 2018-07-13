@@ -16,6 +16,12 @@ export class HomeComponent implements OnInit {
           document
             .getElementById('team')
             .scrollIntoView({ behavior: 'smooth' });
+          break;
+        case 'contact':
+          document
+            .getElementById('contact')
+            .scrollIntoView({ behavior: 'smooth' });
+          break;
       }
     });
   }

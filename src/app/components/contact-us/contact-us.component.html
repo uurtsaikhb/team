@@ -1,0 +1,30 @@
+<div class="section-contact-us"
+     id="contact">
+  <div class="contact-detail">
+    <span class="contact-header">DREAM TEAM HQ</span>
+    <span class="contact-address">
+      2021 7TH AVE
+      <br> SEATTLE, WA 98121
+    </span>
+    <span class="contact-phone item">Let's talk
+      <br>
+      <strong>(469) 955-8225</strong>
+    </span>
+    <span class="contact-email item"> You can email us too!
+      <br>
+      <strong>contact@dream.team</strong>
+    </span>
+  </div>
+  <div class="map">
+    <agm-map class="z-depth-1-half map-container"
+             style="height: 400px;"
+             [latitude]="lat"
+             [longitude]="lng"
+             [zoom]='zoom'
+             [styles]='style'>
+      <agm-marker [latitude]="lat"
+                  [longitude]="lng"></agm-marker>
+    </agm-map>
+  </div>
+
+</div>

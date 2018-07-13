@@ -21,4 +21,11 @@ export class HeaderComponent implements OnInit {
       document.getElementById('team').scrollIntoView({ behavior: 'smooth' });
     }
   }
+
+  onClickContactUs() {
+    this.router.navigate(['home'], { queryParams: { segment: 'contact' } });
+    if (document.getElementById('contact')) {
+      document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+    }
+  }
 }

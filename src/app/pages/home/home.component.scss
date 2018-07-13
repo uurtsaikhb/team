@@ -14,9 +14,15 @@
   min-height: 400px;
 }
 
+.contact-us-image {
+  background-image: url('../../../assets/images/contactus.jpg');
+  min-height: 400px;
+}
+
 .p-image1,
 .p-image2,
-.p-image3 {
+.p-image3,
+.contact-us-image {
   position: relative;
   opacity: 0.7;
   background-position: center;

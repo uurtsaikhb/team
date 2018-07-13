@@ -7,8 +7,8 @@ module.exports = [
       phone: '(708)465-2911',
       linkedin: 'https://www.linkedin.com/in/shagainyamdorj',
       website: 'shagai.nyamdorj.com',
-      avatar: '../../../assets/images/members/shagai.png',
-      image: '../../../assets/images/shagai.jpg',
+      avatar: './assets/images/members/shagai.png',
+      image: './assets/images/shagai.jpg',
       title: 'Software Engineer'
     },
     style: {
@@ -49,8 +49,8 @@ module.exports = [
       email: 'luvsansharav.a@gmail.com',
       phone: '(919)244-7825',
       linkedin: 'https:/www.linkedin.com/in/luvsansharav',
-      avatar: '../../../assets/images/members/luvsansharav.png',
-      image: '../../../assets/images/luvsansharav.jpg',
+      avatar: './assets/images/members/luvsansharav.png',
+      image: './assets/images/luvsansharav.jpg',
       title: 'Software Engineer'
     },
     style: {
@@ -98,8 +98,8 @@ module.exports = [
       phone: '(415)465-9630',
       linkedin: 'https://www.linkedin.com/in/mandalts',
       website: 'www.mandal.com',
-      avatar: '../../../assets/images/members/mandal.png',
-      image: '../../../assets/images/mandal.jpg',
+      avatar: './assets/images/members/mandal.png',
+      image: './assets/images/mandal.jpg',
       title: 'Software Engineer'
     },
     style: {
@@ -135,8 +135,8 @@ module.exports = [
       phone: '(469)955-8225',
       linkedin: 'https:/www.linkedin.com/in/uurtsaikh',
       website: 'www.uurtsaikh.com',
-      avatar: '../../../assets/images/members/uurtsaikh.png',
-      image: '../../../assets/images/uurtsaikh.jpg',
+      avatar: './assets/images/members/uurtsaikh.png',
+      image: './assets/images/uurtsaikh.jpg',
       title: 'Software Engineer'
     },
     style: {
