@@ -12,7 +12,8 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {}
 
   onClickHome() {
-    this.router.navigate(['home']);
+    this.router.navigate(['home'], { queryParams: { segment: 'home' } });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   onClickTeam() {
